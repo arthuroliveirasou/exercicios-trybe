@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    background-color: #D6FFD8;
+}
+#nome{
+    font-family: 'Secular One', sans-serif;
+}
+#description{
+    font-family: 'Play', sans-serif;
+}
+strong{
+    font-weight:unset;
+    padding: 0.25%;
+    background-color: rgb(255, 255, 208);
+}
+.hab1{font-size: 110%;}
+.hab2{font-size: 100%;}
+.hab3{font-size: 90%;}
+.hab4{font-size: 85%;}
+.hab5{font-size: 80%;}
+.hab6{font-size: 75%;}
