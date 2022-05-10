@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    background-color: #D6FFD8;
+}
+
+#themenu{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+#me{
+    width: 95%;
+    margin: auto;
+}
+
+#nome{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+#fotoArthurOliveira{
+    padding: 1%;
+    max-width: 100%;
+    background-color: #6F2E00;
+}
+
+#description{
+    text-align: justify;
+    font-family: 'Play', sans-serif;
+}
+
+div.me{
+    margin: auto;
+    max-width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+}
+
+strong{
+    font-weight:unset;
+    padding: 0.25%;
+    background-color: rgb(255, 255, 208);
+}
+
+#myHabilities{
+    width: 95%;
+    margin: auto;
+}
+
+#habilities li:nth-of-type(2n+1){
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.hab1{font-size: 110%;}
+.hab2{font-size: 100%;}
+.hab3{font-size: 90%;}
+.hab4{font-size: 85%;}
+.hab5{font-size: 80%;}
+.hab6{font-size: 75%;}
+
+#recommendations{
+    width: 95%;
+    margin: auto;
+}
