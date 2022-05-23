@@ -1,27 +1,44 @@
-# Trybe
+# INTRODUÇÃO
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Arthur Oliveira](https://www.linkedin.com/in/arthuroliveirasou/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Olá! Bem vindo a este repositório!
+Aqui você encontrará os exercícios que eu, _[Arthur Oliveira](https://www.linkedin.com/in/arthuroliveirasou/)_, realizei enquanto estudante na [Trybe](https://www.betrybe.com/)
 
+<details>
+ <summary><strong>Sobre a Trybe :rocket:</strong></summary>
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+</details>
+
+## Forma de organização
+
+Este repositório está organizado em diretórios, da seguinte forma:
+1. _Raiz_
+1. Módulo
+1. Bloco
+1. Dia
+
+Onde dentro das pastas de cada dia, há os arquivos referentes ao dia correspondente.
+
+## Integração _(Em construção)_
+Esse repositório será integrado [ao meu portfólio digital](http://arthuroliveirasou.github.io/), para facilitar o acesso e consulta.
 
 ## Fundamentos do Desenvolvimento Web
 
-##### Bloco 1: Introdução - Unix & Bash
+##### :heavy_check_mark: Bloco 1: Introdução - Unix & Bash
 
 - [X] 1-3: _Fundamentos do Desenvolvimento Web_
 - [X] 1-3: _Introdução - Unix & Shell_
 - [X] 1-3: _Unix & Bash - Parte 1_
 - [X] 1-4: _Unix & Bash - Parte 2_
 
-##### Bloco 2: Git, GitHub e Internet
+##### :heavy_check_mark: Bloco 2: Git, GitHub e Internet
 
 - [X] 2-1: _Git & GitHub - O que é e para que serve?_
 - [X] 2-2: _Git & Github - Entendendo os comandos_
 - [X] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução à HTML & CSS
+##### :heavy_check_mark: Bloco 3: Introdução à HTML & CSS
 
 - [X] 3-1: _Introdução - HTML & CSS_
 - [X] 3-1: _HTML & CSS - Estruturas de página_
@@ -30,7 +47,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-4: _HTML Semântico_
 - [X] 3-5: _Projeto - Lessons Learned_
 
-#### Bloco 04: Introdução à JavaScript e Lógica de Programação
+#### :heavy_check_mark: Bloco 04: Introdução à JavaScript e Lógica de Programação
 
 - [X] 4-1: _Introdução - JavaScript_
 - [X] 4-1: _JavaScript - Primeiros passos_
