@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Buscando Elementos</title>
+</head>
+<body>
+ <main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+
+<script>
+ let elementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+ let pai = elementoOndeVoceEsta.parentElement;
+ pai.style.color = 'darkBlue';
+ document.querySelector('#primeiroFilhoDoFilho').innerText = 'Um textinho de leve';
+ let primeiroFilho = document.querySelector('#pai').firstElementChild;
+ primeiroFilho = elementoOndeVoceEsta.previousElementSibling;
+ let atencao = elementoOndeVoceEsta.nextSibling;
+ let novoFilhoDoPai = document.createElement('section');
+ novoFilhoDoPai.id = 'irmãoDoElementoOndeVoceEsta';
+ pai.appendChild(novoFilhoDoPai);
+ let novoFilhoDoElementoOndeVoceEsta = document.createElement('div');
+ novoFilhoDoElementoOndeVoceEsta.id = 'filhoDoElementoOndeVoceEsta';
+ elementoOndeVoceEsta.appendChild(novoFilhoDoElementoOndeVoceEsta);
+ let novoFilhoDoPrimeiroFilhoDoFilho = document.createElement('div');
+ novoFilhoDoPrimeiroFilhoDoFilho.id = 'primeiroFilhoDoPrimeiroFilhoDoFilho';
+ elementoOndeVoceEsta.firstElementChild.appendChild(novoFilhoDoPrimeiroFilhoDoFilho);
+ let terceiroFilho = novoFilhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+</script>
+
+</body>
+</html>
