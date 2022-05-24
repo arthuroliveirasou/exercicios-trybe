@@ -67,7 +67,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
  <summary><strong>Bloco 5: JavaScript: DOM, Eventos e Web Storage</strong></summary>
  
 - [X] 5.1: _JavaScript - DOM e seletores_
-- [ ] 5.2: _JavaScript - Trabalhando com elementos_
+- [X] 5.2: _JavaScript - Trabalhando com elementos_
 - [ ] 5.3: _JavaScript - Eventos_
 - [ ] 5.4: _JavaScript - Web Storage_
 - [ ] 5.5: _Fundamentos - JavaScript - Projetos_
