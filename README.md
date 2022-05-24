@@ -53,7 +53,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 04: Introdução à JavaScript e Lógica de Programação :heavy_check_mark:</strong></summary>
+ <summary><strong>Bloco 4: Introdução à JavaScript e Lógica de Programação :heavy_check_mark:</strong></summary>
  
 - [X] 4.1: _Introdução - JavaScript_
 - [X] 4.1: _JavaScript - Primeiros passos_
@@ -64,7 +64,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 05: JavaScript: DOM, Eventos e Web Storage</strong></summary>
+ <summary><strong>Bloco 5: JavaScript: DOM, Eventos e Web Storage</strong></summary>
  
 - [X] 5.1: _JavaScript - DOM e seletores_
 - [ ] 5.2: _JavaScript - Trabalhando com elementos_
@@ -79,7 +79,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo</strong></summary>
+ <summary><strong>Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo</strong></summary>
  
 - [ ] 6.1: _HTML & CSS - Forms_
 - [ ] 6.2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -91,7 +91,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 07: Introdução à JavaScript ES6 e Testes Unitários</strong></summary>
+ <summary><strong>Bloco 7: Introdução à JavaScript ES6 e Testes Unitários</strong></summary>
  
 - [ ] 7.1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7.2: _JavaScript ES6 - Fluxo de exceção e Objetos_
@@ -100,7 +100,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 08: Higher Order Functions do JavaScript ES6</strong></summary>
+ <summary><strong>Bloco 8: Higher Order Functions do JavaScript ES6</strong></summary>
  
 - [ ] 8.1: _JavaScript ES6 - Introdução a Higher Order Functions_
 - [ ] 8.2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
@@ -114,7 +114,7 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 ## Desenvolvimento Front-end
 
 <details>
- <summary><strong>Bloco 09: JavaScript e Testes Assíncronos</strong></summary>
+ <summary><strong>Bloco 9: JavaScript e Testes Assíncronos</strong></summary>
  
 - [ ] 9.1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9.2: _JavaScript Assíncrono - Fetch API e async/await_
