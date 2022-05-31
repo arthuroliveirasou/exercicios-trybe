@@ -64,14 +64,13 @@ Esse repositório será integrado ao [meu portfólio digital](http://arthurolive
 </details>
 
 <details>
- <summary><strong>Bloco 5: JavaScript: DOM, Eventos e Web Storage</strong></summary>
+ <summary><strong>Bloco 5: JavaScript: DOM, Eventos e Web Storage :heavy_check_mark:</strong></summary>
  
 - [X] 5.1: _JavaScript - DOM e seletores_
 - [X] 5.2: _JavaScript - Trabalhando com elementos_
-- [ ] 5.3: _JavaScript - Eventos_
-- [ ] 5.4: _JavaScript - Web Storage_
-- [ ] 5.5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5.5: _Projeto - Arte com Pixels_
+- [X] 5.3: _JavaScript - Eventos_
+- [X] 5.4: _JavaScript - Web Storage_
+- [X] 5.5: _Projeto - Arte com Pixels_
 - [ ] 5.6: _Projeto - Lista de tarefas_
 - [ ] 5.7: _Projeto - Meme Generator_
 - [ ] 5.7: _Projeto - Adivinhe a Cor_
