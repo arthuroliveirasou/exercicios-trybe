@@ -29,8 +29,25 @@ function checkboxMarks() {
   }
 }
 
-function reasonSubmit(event) {
+function submitClick(event) {
   event.preventDefault();
-  console.log(`Submit Clicado`);
+  validityResponse();
 }
-submitButton.addEventListener('click', reasonSubmit)
+submitButton.addEventListener('click', submitClick);
+
+function verifyValidity(){
+  let validities = [];
+  for(let i = 0; i < inputs.length; i += 1){
+    validities.push(inputs[i].validity.valid);
+  }
+  return validities;
+}
+
+function validityResponse(){
+  let isValid = verifyValidity();
+  if(isValid) {
+    alert('Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.');
+  } else {
+    alert('Dados Inválidos');
+  }
+}

@@ -13,40 +13,42 @@
     <h2 id="title2">Formulário de Requisição</h2>
   </header>
   <main>
-    <form method="get" id="inputs-container">
-      <label for="input-name">Nome: <input type="text" name="name" id="input-name" class="input edt-input itext" minlength="10" maxlength="40" placeholder="Seu nome completo"></label>
-      <br><br>
-      <label for="input-name">Email: <input type="email" name="email" id="input-name" class="input edt-input itext" minlength="10" maxlength="50" placeholder="exemplo@dominio.com"></label>
-      <br><br>
-      <span>Destino Preferido:</span>
-      <br>
-      <label for="option1">
-        <input type="radio" name="options" id="option1" class="input iradio" value="cd" checked>Cidade
-      </label>
-      <label for="option2">
-        <input type="radio" name="options" id="option2" class="input iradio" value="cp">Campo
-      </label>
-      <label for="option3">
-        <input type="radio" name="options" id="option3" class="input iradio" value="pr">Praia
-      </label>
-      <label for="option4">
-        <input type="radio" name="options" id="option4" class="input iradio" value="mo">Montanhas
-      </label>
-      <br><br>
-      <label for="input-reason">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br>
-        <textarea name="reason-text" id="input-reason" class="input edt-input" cols="30" rows="10" maxlength="500"></textarea>
-      </label>
-      <br><br>
-      <label for="best-date">Melhor data para viagem: <input type="date" name="bestDate" id="best-date" class="input edt-input"></label>
-      <br><br>
-      <label for="input-news"><input type="checkbox" name="receiveOpportunities" id="input-news" class="input icheck">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
-      <br><br>
-      <label for="input-terms"><input type="checkbox" name="acceptTerms" id="input-terms" class="input icheck">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    <form method="get" id="the-form">
+      <div id="inputs-container">
+        <label for="input-name">Nome: <input type="text" name="name" id="input-name" class="input edt-input itext" minlength="10" maxlength="40" placeholder="Seu nome completo"></label>
+        <br><br>
+        <label for="input-email">Email: <input type="email" name="email" id="input-email" class="input edt-input itext" minlength="10" maxlength="50" placeholder="exemplo@dominio.com"></label>
+        <br><br>
+        <span>Destino Preferido:</span>
+        <br>
+        <label for="option1">
+          <input type="radio" name="options" id="option1" class="input iradio" value="cd" checked>Cidade
+        </label>
+        <label for="option2">
+          <input type="radio" name="options" id="option2" class="input iradio" value="cp">Campo
+        </label>
+        <label for="option3">
+          <input type="radio" name="options" id="option3" class="input iradio" value="pr">Praia
+        </label>
+        <label for="option4">
+          <input type="radio" name="options" id="option4" class="input iradio" value="mo">Montanhas
+        </label>
+        <br><br>
+        <label for="input-reason">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br>
+          <textarea name="reason-text" id="input-reason" class="input edt-input" cols="30" rows="10" maxlength="500"></textarea>
+        </label>
+        <br><br>
+        <label for="best-date">Melhor data para viagem: <input type="date" name="bestDate" id="best-date" class="input edt-input"></label>
+        <br><br>
+        <label for="input-news"><input type="checkbox" name="receiveOpportunities" id="input-news" class="input icheck">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br><br>
+        <label for="input-terms"><input type="checkbox" name="acceptTerms" id="input-terms" class="input icheck" required>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </div>
+      <div id="buttons-container">
+        <button type="submit" id="btn-submit" class="btn">Enviar</button>
+        <button id="btn-clear" class="btn">Apagar</button>
+      </div>
     </form>
-    <div id="buttons-container">
-      <button type="submit" id="btn-submit" class="btn">Enviar</button>
-      <button id="btn-clear" class="btn">Apagar</button>
-    </div>
   </main>
   <script src="./script.js"></script>
 </body>
