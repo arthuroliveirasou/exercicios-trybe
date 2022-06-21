@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  line-height: 1.2;
+  font-family: serif;
+}
+
+#open-configs {
+  padding: 3px;
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  z-index: 99998;
+  right: 5px;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal section {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #fff;
+}
+.modal span, .modal h3 {
+  color: azure;
+  text-align: center;
+}
+.modal a {
+  font-family: sans-serif;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 175%;
+  margin: 10px;
+}
+#modal-options {
+  display: flex;
+  padding: 0;
+  margin: auto;
+  width: 250px;
+  flex-direction: column;
+  align-content: space-between;
+}
+#modal-options div * {
+  display: flexbox;
+  align-self: stretch;
+}
+#modal-options select {
+  font-family: unset;
+  color: white;
+  font-weight: bold;
+  background-color:rgb(80, 80, 80);
+  border-radius: 5px;
+}
+#confirm-btn {
+  font-family: unset;
+  color: rgb(80, 80, 80);
+  background-color: white;
+  border-radius: 5px;
+  width: 8em;
+  align-self: center;
+}

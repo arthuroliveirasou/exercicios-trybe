@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/CSS"href="./style.css">
+  <title>Exercício Web Storage</title>
+</head>
+<body>
+  <header>
+    <a href="#configs" id="open-configs">Config.</a>
+    <section id="configs" class="modal">
+      <a href="/index.html" title="Fechar" class="fechar">x</a>
+      <div id="modal-options">
+        <h3>Configurações de Leitura</h3>
+        <div>
+          <span>Cor de fundo: </span>
+          <select name="background-selector" id="background-selector" class="selector">
+            <option value="1">Escuro</option>
+            <option value="0" selected>Claro</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <span>Cor da letra: </span>
+          <select name="text-color-selector" id="text-color-selector" class="selector">
+            <option value="0" selected>Padrão</option>
+            <option value="2">Azul</option>
+            <option value="1">Vermelho</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <span>Tamanho da letra: </span>
+          <select name="font-size-selector" id="font-size-selector" class="selector">
+            <option value="0">Pequeno</option>
+            <option value="1" selected>Padrão</option>
+            <option value="2">Grande</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <span>Espaçamento: </span>
+          <select name="line-height-selector" id="line-height-selector" class="selector">
+            <option value="0">Pequeno</option>
+            <option value="1" selected>Padrão</option>
+            <option value="2">Grande</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <span>Fonte: </span>
+          <select name="font-family-selector" id="font-family-selector" class="selector">
+            <option value="0" selected>Serifado</option>
+            <option value="1">Sem serifa</option>
+            <option value="2">Monoespaçada</option>
+          </select>
+        </div>
+        <br>
+        <button id="confirm-btn" class="btn">Confirmar</button>
+      </div>
+    </section>
+    <h1 id="main-title" class="title">Eis aqui um teste</h1>
+  </header>
+  <main>
+    <section>
+      <article>
+        <h2 id="article1-title" class="title article-title">Lorem Ipsum</h2>
+        <p id="artc-sub-title" class="sub-title">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+        <p class="sub-title2">"Não há quem goste de dor, que a procure e a queira ter, simplesmente porque é dor..."</p>
+        <p class="article-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et mi libero. Nullam et mauris elit. Donec dolor massa, pharetra ac consequat vel, placerat non tortor. Aenean efficitur lacus a dolor tempor, non interdum lacus scelerisque. Pellentesque in volutpat nibh. Donec cursus massa et ante facilisis, a pretium ante congue. Aliquam erat volutpat. In quis placerat sapien, a fermentum neque.</p>
+        <p class="article-p">In hac habitasse platea dictumst. Nullam eget vehicula ex, vel finibus ante. Ut lobortis elementum pellentesque. Nam lacus mi, lacinia vel gravida vel, rutrum eget mi. Sed et cursus lectus. Vivamus vulputate leo sit amet diam tincidunt tempor quis eget augue. Ut venenatis orci sodales, aliquam orci sit amet, euismod diam. Donec varius mauris vitae quam bibendum tincidunt.</p>
+        <p class="article-p">In ornare, odio ac maximus malesuada, ipsum augue accumsan lacus, posuere porttitor eros neque vel ante. Suspendisse potenti. Duis vel finibus risus, et bibendum leo. Curabitur laoreet ultricies tincidunt. Nam lacinia diam ipsum, vel condimentum leo hendrerit ut. Duis vitae vehicula purus, nec laoreet est. Duis convallis, erat in sollicitudin facilisis, nisi arcu tincidunt ligula, et hendrerit justo neque sit amet dolor. Etiam molestie interdum orci at lobortis. Sed felis nulla, imperdiet et arcu quis, volutpat posuere mauris. Mauris suscipit fringilla rhoncus. Donec iaculis mi vitae tincidunt mattis. Aliquam vel hendrerit sapien. Maecenas eu tellus quis ligula luctus laoreet eget ac lectus.</p>
+        <p class="article-p">Nullam ultrices malesuada aliquet. Nulla lectus elit, molestie et volutpat auctor, faucibus ac ipsum. Nullam libero magna, interdum eget posuere ut, viverra malesuada quam. Aenean blandit sapien ut ante dapibus, ac vulputate tortor hendrerit. Nunc ligula lacus, elementum ut diam id, tempus pellentesque lectus. Phasellus tristique iaculis libero. Praesent dignissim nulla sed libero aliquam, ac fermentum arcu lobortis.</p>
+        <p class="article-p">ed orci neque, iaculis id tortor sollicitudin, porttitor faucibus lorem. Donec imperdiet sapien erat, eget lacinia justo ultricies eleifend. Phasellus pulvinar dolor et fermentum sollicitudin. Ut odio magna, semper sed malesuada at, maximus quis elit. Ut vestibulum ante vitae dolor tempus elementum. Mauris sed tempus enim. Phasellus commodo semper facilisis.</p>
+      </article>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
